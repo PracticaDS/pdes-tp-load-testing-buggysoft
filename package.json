@@ -1,0 +1,27 @@
+{
+  "name": "pdes-tp-load-testing-buggysoft",
+  "version": "1.0.0",
+  "description": "An artillery load test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/artillery/bin/artillery run -o test-results.json",
+    "report": "node_modules/artillery/bin/artillery report test-results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PracticaDS/pdes-tp-load-testing-buggysoft.git"
+  },
+  "keywords": [
+    "node",
+    "performance"
+  ],
+  "author": "glmaljkovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PracticaDS/pdes-tp-load-testing-buggysoft/issues"
+  },
+  "homepage": "https://github.com/PracticaDS/pdes-tp-load-testing-buggysoft#readme",
+  "dependencies": {
+    "artillery": "^1.6.0-28"
+  }
+}
