@@ -13,3 +13,14 @@ script:
   - npm run cypress:run
   - docker-compose down
   - npm run clean
+before_deploy:
+  - rm -f dist/index.html
+  - mkdir -p dist && cp test-results.json.html dist/index.html
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    github_token: "$GITHUB_TOKEN"
+    keep_history: true
+    local_dir: dist
+    on:
+      branch: master
