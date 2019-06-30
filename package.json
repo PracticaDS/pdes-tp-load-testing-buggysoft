@@ -4,7 +4,7 @@
   "description": "An artillery load test",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/artillery/bin/artillery run -o test-results.json",
+    "loadtest": "node_modules/artillery/bin/artillery run -o test-results.json",
     "report": "node_modules/artillery/bin/artillery report test-results.json",
     "cypress:run": "cypress run",
     "cloneAll": "node clone-all.js",
