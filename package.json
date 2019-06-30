@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/artillery/bin/artillery run -o test-results.json",
-    "report": "node_modules/artillery/bin/artillery report test-results.json"
+    "report": "node_modules/artillery/bin/artillery report test-results.json",
+    "cypress:run": "cypress run",
+    "cloneAll": "node clone-all.js",
+    "clean": "rm -rf cloned-repos",
+    "waitForServer": "node wait-for-server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +27,8 @@
   "homepage": "https://github.com/PracticaDS/pdes-tp-load-testing-buggysoft#readme",
   "dependencies": {
     "artillery": "^1.6.0-28"
+  },
+  "devDependencies": {
+    "cypress": "^3.3.2"
   }
 }
