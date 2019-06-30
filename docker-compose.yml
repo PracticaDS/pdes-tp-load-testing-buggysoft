@@ -12,11 +12,11 @@ services:
   mongodb:
     image: mongo
   frontend:
-    build: "./cloned-repos/pdes-tp-buggysoft/"
+    image: "glmaljkovich/pdes-tp-buggysoft:latest"
     labels:
     - traefik.frontend.rule=PathPrefix:/
   backend:
-    build: "./cloned-repos/pdes-tp-backend-buggysoft/"
+    image: "glmaljkovich/pdes-tp-backend-buggysoft:latest"
     environment:
     - MONGO_URL=mongodb://mongodb/pdes_tp_backend_buggysoft
     - NODE_ENV=production
