@@ -49,34 +49,34 @@
   <script>
   window.Report = {
   "aggregate": {
-    "timestamp": "2019-06-11T02:37:50.147Z",
-    "scenariosCreated": 1200,
-    "scenariosCompleted": 1200,
-    "requestsCompleted": 2400,
+    "timestamp": "2019-06-30T15:44:03.252Z",
+    "scenariosCreated": 1838,
+    "scenariosCompleted": 1838,
+    "requestsCompleted": 3676,
     "latency": {
-      "min": 0.9,
-      "max": 7.3,
-      "median": 1.4,
-      "p95": 3,
-      "p99": 4.3
+      "min": 2.2,
+      "max": 61.1,
+      "median": 3.8,
+      "p95": 7.3,
+      "p99": 11.9
     },
     "rps": {
-      "count": 2400,
-      "mean": 39.71
+      "count": 3676,
+      "mean": 60.16
     },
     "scenarioDuration": {
-      "min": 4.2,
-      "max": 51.7,
-      "median": 5.5,
-      "p95": 9.8,
-      "p99": 13
+      "min": 8.7,
+      "max": 131.2,
+      "median": 12.1,
+      "p95": 18.8,
+      "p99": 28.3
     },
     "scenarioCounts": {
-      "Create and get user": 1200
+      "Create and get user": 1838
     },
     "errors": {},
     "codes": {
-      "200": 2400
+      "200": 3676
     },
     "matches": 0,
     "customStats": {},
@@ -85,40 +85,42 @@
     "phases": [
       {
         "duration": 60,
-        "arrivalRate": 20
+        "arrivalRate": 10,
+        "rampTo": 50,
+        "name": "Ramp up 1 minute"
       }
     ]
   },
   "intermediate": [
     {
-      "timestamp": "2019-06-11T02:36:59.619Z",
-      "scenariosCreated": 199,
-      "scenariosCompleted": 199,
-      "requestsCompleted": 398,
+      "timestamp": "2019-06-30T15:43:12.034Z",
+      "scenariosCreated": 119,
+      "scenariosCompleted": 119,
+      "requestsCompleted": 238,
       "latency": {
-        "min": 1,
-        "max": 7.3,
-        "median": 1.9,
-        "p95": 3.6,
-        "p99": 5.8
+        "min": 3.2,
+        "max": 61.1,
+        "median": 5.8,
+        "p95": 9.7,
+        "p99": 22.6
       },
       "rps": {
-        "count": 398,
-        "mean": 40.16
+        "count": 238,
+        "mean": 24.06
       },
       "scenarioDuration": {
-        "min": 4.7,
-        "max": 51.7,
-        "median": 5.9,
-        "p95": 11.2,
-        "p99": 18.3
+        "min": 12.8,
+        "max": 131.2,
+        "median": 15.7,
+        "p95": 26.4,
+        "p99": 87.9
       },
       "scenarioCounts": {
-        "Create and get user": 199
+        "Create and get user": 119
       },
       "errors": {},
       "codes": {
-        "200": 398
+        "200": 238
       },
       "matches": 0,
       "customStats": {},
@@ -128,71 +130,34 @@
       "scenariosAvoided": 0
     },
     {
-      "timestamp": "2019-06-11T02:37:09.617Z",
-      "scenariosCreated": 200,
-      "scenariosCompleted": 200,
-      "requestsCompleted": 400,
+      "timestamp": "2019-06-30T15:43:22.034Z",
+      "scenariosCreated": 204,
+      "scenariosCompleted": 204,
+      "requestsCompleted": 408,
       "latency": {
-        "min": 1,
-        "max": 6.3,
-        "median": 1.5,
-        "p95": 3.4,
-        "p99": 4.9
-      },
-      "rps": {
-        "count": 400,
-        "mean": 40
-      },
-      "scenarioDuration": {
-        "min": 4.6,
-        "max": 13.5,
-        "median": 5.5,
-        "p95": 10.9,
-        "p99": 12
-      },
-      "scenarioCounts": {
-        "Create and get user": 200
-      },
-      "errors": {},
-      "codes": {
-        "200": 400
-      },
-      "matches": 0,
-      "customStats": {},
-      "counters": {},
-      "concurrency": 0,
-      "pendingRequests": 0,
-      "scenariosAvoided": 0
-    },
-    {
-      "timestamp": "2019-06-11T02:37:19.617Z",
-      "scenariosCreated": 200,
-      "scenariosCompleted": 200,
-      "requestsCompleted": 400,
-      "latency": {
-        "min": 0.9,
-        "max": 5.8,
-        "median": 1.5,
-        "p95": 3.1,
-        "p99": 4.1
-      },
-      "rps": {
-        "count": 400,
-        "mean": 40
-      },
-      "scenarioDuration": {
-        "min": 4.4,
-        "max": 14.4,
-        "median": 5.5,
-        "p95": 9.8,
+        "min": 2.4,
+        "max": 21.2,
+        "median": 4.4,
+        "p95": 8.1,
         "p99": 14.3
       },
+      "rps": {
+        "count": 408,
+        "mean": 40.84
+      },
+      "scenarioDuration": {
+        "min": 10.1,
+        "max": 33.3,
+        "median": 13.6,
+        "p95": 20.5,
+        "p99": 29.4
+      },
       "scenarioCounts": {
-        "Create and get user": 200
+        "Create and get user": 204
       },
       "errors": {},
       "codes": {
-        "200": 400
+        "200": 408
       },
       "matches": 0,
       "customStats": {},
@@ -202,34 +167,34 @@
       "scenariosAvoided": 0
     },
     {
-      "timestamp": "2019-06-11T02:37:29.616Z",
-      "scenariosCreated": 200,
-      "scenariosCompleted": 200,
-      "requestsCompleted": 400,
+      "timestamp": "2019-06-30T15:43:32.036Z",
+      "scenariosCreated": 262,
+      "scenariosCompleted": 262,
+      "requestsCompleted": 524,
       "latency": {
-        "min": 0.9,
-        "max": 4.9,
-        "median": 1.3,
-        "p95": 2.5,
-        "p99": 3.8
+        "min": 2.3,
+        "max": 21.1,
+        "median": 4.1,
+        "p95": 8.4,
+        "p99": 13.8
       },
       "rps": {
-        "count": 400,
-        "mean": 40
+        "count": 524,
+        "mean": 52.72
       },
       "scenarioDuration": {
-        "min": 4.2,
-        "max": 16.8,
-        "median": 5.1,
-        "p95": 8.9,
-        "p99": 11.9
+        "min": 9.9,
+        "max": 47.6,
+        "median": 13.2,
+        "p95": 22,
+        "p99": 28.1
       },
       "scenarioCounts": {
-        "Create and get user": 200
+        "Create and get user": 262
       },
       "errors": {},
       "codes": {
-        "200": 400
+        "200": 524
       },
       "matches": 0,
       "customStats": {},
@@ -239,34 +204,71 @@
       "scenariosAvoided": 0
     },
     {
-      "timestamp": "2019-06-11T02:37:39.620Z",
-      "scenariosCreated": 200,
-      "scenariosCompleted": 200,
-      "requestsCompleted": 400,
+      "timestamp": "2019-06-30T15:43:42.047Z",
+      "scenariosCreated": 341,
+      "scenariosCompleted": 340,
+      "requestsCompleted": 681,
       "latency": {
-        "min": 0.9,
-        "max": 6.2,
-        "median": 1.4,
-        "p95": 2.7,
-        "p99": 3.7
+        "min": 2.3,
+        "max": 22.9,
+        "median": 3.9,
+        "p95": 7.1,
+        "p99": 11.2
       },
       "rps": {
-        "count": 400,
-        "mean": 40
+        "count": 682,
+        "mean": 68.2
       },
       "scenarioDuration": {
-        "min": 4.3,
-        "max": 13.2,
-        "median": 5.2,
-        "p95": 9.1,
-        "p99": 11.8
+        "min": 9,
+        "max": 35.3,
+        "median": 12.3,
+        "p95": 18.3,
+        "p99": 25.3
       },
       "scenarioCounts": {
-        "Create and get user": 200
+        "Create and get user": 341
       },
       "errors": {},
       "codes": {
-        "200": 400
+        "200": 681
+      },
+      "matches": 0,
+      "customStats": {},
+      "counters": {},
+      "concurrency": 1,
+      "pendingRequests": 1,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2019-06-30T15:43:52.040Z",
+      "scenariosCreated": 403,
+      "scenariosCompleted": 404,
+      "requestsCompleted": 807,
+      "latency": {
+        "min": 2.2,
+        "max": 27.6,
+        "median": 3.7,
+        "p95": 6.2,
+        "p99": 14.2
+      },
+      "rps": {
+        "count": 806,
+        "mean": 80.68
+      },
+      "scenarioDuration": {
+        "min": 8.8,
+        "max": 37.7,
+        "median": 11.4,
+        "p95": 16.4,
+        "p99": 29.3
+      },
+      "scenarioCounts": {
+        "Create and get user": 403
+      },
+      "errors": {},
+      "codes": {
+        "200": 807
       },
       "matches": 0,
       "customStats": {},
@@ -276,34 +278,34 @@
       "scenariosAvoided": 0
     },
     {
-      "timestamp": "2019-06-11T02:37:49.615Z",
-      "scenariosCreated": 200,
-      "scenariosCompleted": 200,
-      "requestsCompleted": 400,
+      "timestamp": "2019-06-30T15:44:02.042Z",
+      "scenariosCreated": 475,
+      "scenariosCompleted": 475,
+      "requestsCompleted": 950,
       "latency": {
-        "min": 0.9,
-        "max": 4.8,
-        "median": 1.4,
-        "p95": 2.9,
-        "p99": 3.7
+        "min": 2.2,
+        "max": 12,
+        "median": 3.6,
+        "p95": 6,
+        "p99": 10
       },
       "rps": {
-        "count": 400,
-        "mean": 40.04
+        "count": 950,
+        "mean": 95
       },
       "scenarioDuration": {
-        "min": 4.3,
-        "max": 15.4,
-        "median": 5.2,
-        "p95": 9.2,
-        "p99": 10.3
+        "min": 8.7,
+        "max": 42.4,
+        "median": 10.8,
+        "p95": 16.8,
+        "p99": 21.3
       },
       "scenarioCounts": {
-        "Create and get user": 200
+        "Create and get user": 475
       },
       "errors": {},
       "codes": {
-        "200": 400
+        "200": 950
       },
       "matches": 0,
       "customStats": {},
@@ -313,34 +315,34 @@
       "scenariosAvoided": 0
     },
     {
-      "timestamp": "2019-06-11T02:37:50.120Z",
-      "scenariosCreated": 1,
-      "scenariosCompleted": 1,
-      "requestsCompleted": 2,
+      "timestamp": "2019-06-30T15:44:03.216Z",
+      "scenariosCreated": 34,
+      "scenariosCompleted": 34,
+      "requestsCompleted": 68,
       "latency": {
-        "min": 1,
-        "max": 1.5,
-        "median": 1.2,
-        "p95": 1.5,
-        "p99": 1.5
+        "min": 2.4,
+        "max": 8.6,
+        "median": 3.4,
+        "p95": 5.4,
+        "p99": 8.4
       },
       "rps": {
-        "count": 2,
-        "mean": 4
+        "count": 68,
+        "mean": 58.12
       },
       "scenarioDuration": {
-        "min": 4.5,
-        "max": 4.5,
-        "median": 4.5,
-        "p95": 4.5,
-        "p99": 4.5
+        "min": 8.8,
+        "max": 17.6,
+        "median": 10.3,
+        "p95": 16.2,
+        "p99": 17.6
       },
       "scenarioCounts": {
-        "Create and get user": 1
+        "Create and get user": 34
       },
       "errors": {},
       "codes": {
-        "200": 2
+        "200": 68
       },
       "matches": 0,
       "customStats": {},
